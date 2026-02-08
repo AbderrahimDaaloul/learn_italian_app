@@ -14,6 +14,7 @@ import {
   Plus,
   Loader2,
 } from "lucide-react";
+import WordSearch from "./WordSearch";
 
 const API_URL = "/api/words";
 
@@ -564,6 +565,9 @@ export default function ItalianQuiz() {
 
          
         </motion.div>
+
+        {/* Word Search Component */}
+        <WordSearch />
 
         {/* Stats Bar */}
         <motion.div
